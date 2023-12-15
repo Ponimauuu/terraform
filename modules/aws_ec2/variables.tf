@@ -17,3 +17,7 @@ variable "name_prvt" {
 variable "name_pub" {
     default = "Ponimau-bastion"
 }
+
+variable "ami_ubuntu" {
+    default = "ami-0fc5d935ebf8bc3bc"
+}
